@@ -1,6 +1,7 @@
 package strings;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class StringTest {
     public static void main(String[] args) {
@@ -111,6 +112,34 @@ public class StringTest {
         System.out.println(checkIfTheArmstrongsNums);
         System.out.println();
         textChess(new String[]{"2k_aCdt8", "km&*CY90!", "vhs%^123d_G", "123$Hm*k90@",});
+        System.out.println();
+        System.out.println("    //2)сгенерить рандомній пароль состоящий из 4 гласніх 3 согласніх и 5 цифр");
+        createRandomPassword();
+        System.out.println();
+        char returnMaxAmountSymbol = returnMaxAmountSymbol("as2$3d05$678$33$s");
+        System.out.println(returnMaxAmountSymbol);
+        System.out.println();
+
+        System.out.println(" //принимаем инт и возвращаем кол-во шагов для превращения этого числа в симметричное относительно центра число\n ");
+        int startnum = 457;
+        int reverseInt = reverseInt(startnum);
+        System.out.println(" // развернуть число зеркально " + reverseInt);
+        boolean isMirror = isMirror(reverseInt);
+        System.out.println(" // является ли число зеркальным " + isMirror);
+        int getAmountStepsToMirror = getAmountStepsToMirror(startnum);
+        System.out.println(" // кол-во шагов до получения зеркального состояния " + getAmountStepsToMirror);
+        System.out.println();
+        System.out.println(" //ф-я принимает стринг и чар и возвращает массив стрингов, полученный разбиением стринга на набор стрингов чаром, что передается");
+        String[] textArrayWithChar = t("принимает стринг и чар и возвращает массив array", ' ');
+        System.out.println(Arrays.toString(textArrayWithChar));
+        System.out.println();
+        System.out.println("Home work 1 // ф-я принимает стринг и возвращает стринг, в котором максимальная и минимальная цмфры поменяны местами");
+        String result = getMinMaxNums("hel9lo781wor0*ld$%4562");
+        System.out.println(" максимальная и минимальная цмфры поменяны местами = " + result);
+        System.out.println();
+        System.out.println("Home work 2 // принимаем стринг и возвращаем максимальное количество подряд идущих цифр");
+        int currentCounter = getAmountNumbs("+wor0*ld12$%457=pr5_&%758888");
+        System.out.println("currentCounter = " + currentCounter);
 
     }
 
@@ -534,7 +563,6 @@ public class StringTest {
         return allSum == num;
     }
 
-
     public static void textChess(String[] text) {
         System.out.println(Arrays.toString(text));
         String text2 = "";
@@ -547,28 +575,273 @@ public class StringTest {
                     allCharacter[j] = ' ';
                 }
             }
-            for (int e = 0, r = 0; e < onlyText.length-1; e = e + 2, r++) {
+            for (int e = 0, r = 0; e < onlyText.length - 1; e = e + 2, r++) {
                 text2 = (text2 + onlyText[e]).toUpperCase();
                 char[] textWithBigLetter = text2.toCharArray();
                 onlyText[e] = textWithBigLetter[r];
             }
 //            System.out.println(Arrays.toString(onlyText));
-            for (int y = 0, u = 0; y < allCharacter.length; y++){
-                if (allCharacter[y] == ' '){
+            for (int y = 0, u = 0; y < allCharacter.length; y++) {
+                if (allCharacter[y] == ' ') {
                     allCharacter[y] = onlyText[u++];
                 }
             }
             System.out.println(Arrays.toString(allCharacter));
         }
+    }
 
-//1)принимаем стринг и возвращаем максимальное количество подряд идущих цифр
-        //2)сгенерить рандомній пароль состоящий из 4 гласніх 3 согласніх и 5 цифр
+    //2)сгенерить рандомній пароль состоящий из 4 гласніх 3 согласніх и 5 цифр
 
+//    public static void createRandomPassword() {
+//        Random random = new Random();
+//        int num = 0;
+//        String nums = "";
+//        String smallLetter = "";
+//        String bigLetter = "";
+//        String letter = "";
+//
+//        for (int i = 0; i < 26; i++) {
+//            num = random.nextInt(0, 10);
+//            nums = nums + num;
+//        }
+//        for (int i = 0; i < 26; i++) {
+//            char a = (char) (random.nextInt(26) + 'a');
+//            smallLetter = smallLetter + a;
+//            char b = (char) (random.nextInt(26) + 'A');
+//            bigLetter = bigLetter + b;
+//        }
+//        letter = smallLetter + bigLetter + nums;
+//        char[] arr = letter.toCharArray();
+//        System.out.println(" Basic array " + Arrays.toString(arr));
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            int randomIndex = random.nextInt(arr.length);
+//            char buffer = arr[i];
+//            arr[i] = arr[randomIndex];
+//            arr[randomIndex] = buffer;
+//        }
+//        System.out.println(" Random array " + Arrays.toString(arr));
+//
+//        String password = "";
+//        for (int i = 0, number = 0, vowels = 0, consonant = 0; i < arr.length; i++) {
+//            if ((arr[i] >= '0') && (arr[i] <= '9') && (number < 5)) {
+//                password = password + arr[i];
+//                number++;
+//            }
+//            if ((arr[i] == 'a' || arr[i] == 'A' || arr[i] == 'e' || arr[i] == 'E' ||
+//                    arr[i] == 'y' || arr[i] == 'Y' || arr[i] == 'u' || arr[i] == 'U' ||
+//                    arr[i] == 'i' || arr[i] == 'I' || arr[i] == 'o' || arr[i] == 'O') && (vowels < 3)) {
+//                password = password + arr[i];
+//                vowels++;
+//            }
+//            //b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, and z.
+//            if ((arr[i] == 'b' || arr[i] == 'B' || arr[i] == 'c' || arr[i] == 'C' ||
+//                    arr[i] == 'd' || arr[i] == 'D' || arr[i] == 'f' || arr[i] == 'F' ||
+//                    arr[i] == 'g' || arr[i] == 'G' || arr[i] == 'h' || arr[i] == 'H' ||
+//                    arr[i] == 'j' || arr[i] == 'J' || arr[i] == 'k' || arr[i] == 'K' ||
+//                    arr[i] == 'l' || arr[i] == 'L' || arr[i] == 'm' || arr[i] == 'M' ||
+//                    arr[i] == 'n' || arr[i] == 'N' || arr[i] == 'p' || arr[i] == 'P' ||
+//                    arr[i] == 'q' || arr[i] == 'Q' || arr[i] == 'r' || arr[i] == 'R' ||
+//                    arr[i] == 's' || arr[i] == 'S' || arr[i] == 't' || arr[i] == 'T' ||
+//                    arr[i] == 'v' || arr[i] == 'V' || arr[i] == 'w' || arr[i] == 'W' ||
+//                    arr[i] == 'x' || arr[i] == 'X' || arr[i] == 'z' || arr[i] == 'Z') && (consonant < 4)) {
+//
+//                password = password + arr[i];
+//                consonant++;
+//            }
+//        }
+//        System.out.println(" Random password " + password);
+//    }
+    // переделать
 
+    public static void createRandomPassword() {
+        Random random = new Random();
+        String basicPass = "";
+        for (int i = 0, number = 0, vowels = 0, consonant = 0; ; i++) {
+            char randomChar = (char) random.nextInt('0', 'z');
+            if ((randomChar >= 'A' && randomChar <= 'Z')
+                    || (randomChar >= 'a' && randomChar <= 'z')
+                    || (randomChar >= '0' && randomChar <= '9')) {
+                if ((randomChar == 'a' || randomChar == 'e' ||
+                        randomChar == 'y' || randomChar == 'u' ||
+                        randomChar == 'i' || randomChar == 'o' ||
+                        randomChar == 'A' || randomChar == 'E' ||
+                        randomChar == 'Y' || randomChar == 'U' ||
+                        randomChar == 'I' || randomChar == 'O') && (vowels < 3)) {
+                    basicPass = basicPass + randomChar;
+                    vowels++;
+                } else if ((randomChar >= '0' && randomChar <= '9') && (number < 5)) {
+                    basicPass = basicPass + randomChar;
+                    number++;
+                } else if (consonant < 4) {
+                    basicPass = basicPass + randomChar;
+                    consonant++;
+                }
+            }
+            //System.out.println("Random char: " + randomChar);
+            if (number == 5 && consonant == 4 && vowels == 3) {
+                break;
+            }
+        }
+        System.out.println("First result password " + basicPass);
+//        char[] password = basicPass.toCharArray();
+//        for (int i = 0; i < password.length; i++) {
+//            int rIndex = random.nextInt(0, password.length);
+//            char buffer = password[i];
+//            password[i] = password[rIndex];
+//            password[rIndex] = buffer;
+//        }
+//        basicPass = "";
+//        for (int i = 0; i < password.length; i++) {
+//            basicPass = basicPass + password[i];
+//        }
+//        System.out.println("last result password " + basicPass);
 
     }
+
+    //принимаем стринг и возвращает стринг с символами, которые встречаются чаще всего
+    public static char returnMaxAmountSymbol(String text) {
+        char[] arr = text.toCharArray();
+        char symbol = arr[0];
+        int etalonCounter = 0;
+        int currentCounter = 0;
+        for (int i = 0; i < arr.length; i++) {
+            currentCounter++;
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    currentCounter++;
+                }
+            }
+            if (currentCounter > etalonCounter) {
+                symbol = arr[i];
+                etalonCounter = currentCounter;
+            }
+            currentCounter = 0;
+        }
+        return symbol;
+    }
+
+    //принимаем инт и возвращаем кол-во шагов для превращения этого числа в симметричное относительно центра число
+    public static int getAmountStepsToMirror(int numb) {
+        // кол-во шагов до получения зеркального состояния
+        int amountStep = 0;
+        while (!isMirror(numb)) {
+            amountStep++;
+            numb = numb + reverseInt(numb);
+            //System.out.println(numb);
+        }
+        return amountStep;
+    }
+
+    public static int reverseInt(int number) {
+        // развернуть число зеркально
+
+        int sum = 0;
+        char[] num = ("" + number).toCharArray();
+        for (int i = 0, j = 1; i < num.length; i++, j = j * 10) {
+            sum = sum + (num[i] - '0') * j;
+        }
+        return sum;
+    }
+
+    public static boolean isMirror(int number) {
+        // является ли число зеркальным
+
+        char[] arr = ("" + number).toCharArray();
+        for (int i = 0, j = arr.length - 1; i < arr.length / 2; i++, j--) {
+            if (arr[i] != arr[j]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //ф-я принимает стринг и чар и возвращает массив стрингов, полученный разбиением стринга на набор стрингов чаром, что передается
+    public static String[] t(String text, char a) {
+        char[] arr = text.toCharArray();
+        int counter = 0;
+        String text2 = "";
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == a) {
+                counter++;
+            }
+        }
+        System.out.println(counter);
+        String[] arrText = new String[counter + 1];
+        String textIndex = "";
+        for (int i = 0, j = 0; i < arr.length; i++) {
+            if (arr[i] != a) {
+                textIndex = textIndex + arr[i];
+            } else {
+                arrText[j] = textIndex;
+                textIndex = "";
+                j++;
+            }
+            if (i == arr.length - 1) {
+                arrText[j] = textIndex;
+            }
+        }
+        return arrText;
+    }
+
+    // 1) ф-я принимает стринг и возвращает стринг, в котором максимальная и минимальная цмфры поменяны местами
+    public static String getMinMaxNums(String t) {
+        char[] arr = t.toCharArray();
+        System.out.println("Base array = " + Arrays.toString(arr));
+        int max = 0;
+        int min = 9;
+        int indexMax = 0;
+        int indexMin = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] >= '0' && arr[i] <= '9') {
+                if (max < (arr[i] - '0')) {
+                    max = (arr[i] - '0');
+                    indexMax = i;
+                    // System.out.println("max " + max);
+                }
+                if (min > (arr[i] - '0')) {
+                    min = (arr[i] - '0');
+                    indexMin = i;
+                    // System.out.println("min " + min);
+                }
+            }
+        }
+        char bufferIndexMax = arr[indexMax];
+        arr[indexMax] = arr[indexMin];
+        arr[indexMin] = bufferIndexMax;
+        t = "";
+        for (int i = 0; i < arr.length; i++) t = t + arr[i];
+        return t;
+    }
+
+    // 2) принимаем стринг и возвращаем максимальное количество подряд идущих цифр
+
+    public static int getAmountNumbs(String t) {
+        char[] arr = t.toCharArray();
+        System.out.println(" arrayNumbs = " + Arrays.toString(arr));
+        int currentCounter = 1;
+        int mainCounter = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if ((arr[i] >= '0' && arr[i] <= '9') || (i == arr.length - 1)) {
+                for (int j = i + 1; j < arr.length; j++) {
+                    if (arr[j] >= '0' && arr[j] <= '9') {
+                        currentCounter++;
+                    } else
+                        break;
+                }
+                if (mainCounter < currentCounter) mainCounter = currentCounter;
+                currentCounter = 1;
+            }
+        }
+        System.out.println(" currentCounter = " + currentCounter);
+        System.out.println(" mainCounter = " + mainCounter);
+        return mainCounter;
+    }
+
+    // 3) принимаем стринг и возвращаем стринг без повторов элементов
+    // уже решена - строка 478
+
+
+
 }
-
-
-
 

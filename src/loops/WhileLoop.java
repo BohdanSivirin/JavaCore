@@ -27,12 +27,17 @@ public class WhileLoop {
         //от -15 до 34 шаг 2/ Напечатать все что не попадает в диапазоны от -10 до -3  и диапазон от 18 до 22
         i = -15;
         while (i <= 34) {
-            if ((i < -10 || i > -3) && (i < 18 || i > 22)){
+            if ((i < -10 || i > -3) && (i < 18 || i > 22)) {
                 System.out.print(i + " ");
             }
             i = i + 1;
         }
 
+        int cat = 3;
+        while (cat > 0) {
+            System.out.println("\nThere is too many cats");
+            cat--;
+        }
 
     }
 }

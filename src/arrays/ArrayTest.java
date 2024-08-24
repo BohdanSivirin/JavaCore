@@ -547,8 +547,7 @@ public class ArrayTest {
         bar[bar.length - 1] = buffer;
         System.out.println(Arrays.toString(bar));
 
-
-        System.out.println("есть массив интов/ Создать массив буленей такой же длины, и важдой ячейке буленевского стоит тру, если число в массиве интов делится на предыдущее без остатка\n");
+        System.out.println("changes ------------ Создать массив буленей такой же длины, и важдой ячейке буленевского стоит тру, если число в массиве интов делится на предыдущее без остатка\n");
 
         int[] goal = {77, 4, 32, 6, 5, 4, 16, 3, 1, 11, 222};
         boolean[] goalBool = new boolean[goal.length];

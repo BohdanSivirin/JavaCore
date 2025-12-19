@@ -1,0 +1,5 @@
+Statistics >> all generated clients: 130
+All clients left -> [lack of space]: 47
+All clients left -> [time out]: 43
+All clients left -> [job done]: 35
+Current queue size: 5

@@ -87,7 +87,10 @@ public class CoffeeMaker {
         switch (scanner.nextInt()) {
             case 1 -> makeDrink();
             case 2 -> fillResources();
-            case 3 -> System.exit(0);
+            case 3 -> {
+                scanner.close();
+                System.exit(0);
+            }
         }
         menu();
     }

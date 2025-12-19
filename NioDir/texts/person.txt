@@ -1,0 +1,29 @@
+id - 123123123
+name - Petro
+surname - Petrovich
+address - Dnipro
+phone - +380630504878
+date - 1989-04-21
+gender - MALE
+id - 784523123
+name - Elena
+surname - Nikolson
+address - London
+phone - +380508478962
+date - 2000-10-01
+gender - FEMALE
+id - 123697823
+name - Tom
+surname - Hardy
+address - Paris
+phone - +380500078912
+date - 1978-02-13
+gender - MALE
+23123123
+name - Steve
+surname - Signal
+address - Berlin
+phone - 380677393733
+date - 2010-12-31
+gender - FEMALE
+E

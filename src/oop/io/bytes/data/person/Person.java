@@ -1,4 +1,4 @@
-package oop.io.person;
+package oop.io.bytes.data.person;
 
 import java.util.Date;
 
@@ -21,6 +21,32 @@ public class Person {
         this.date = date;
         this.address = address;
         this.photo = photo;
+    }
+
+    public String toString() {
+        return "name " + name + " inn " + inn;
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object == this) {
+            return true;
+        }
+        if (object == null) {
+            return false;
+        }
+        if (!(object instanceof Person)) {
+            return false;
+        }
+        Person person = (Person) object;
+        return person.inn == inn;
+    }
+
+    @Override
+    public int hashCode() {
+        int hashCode = 17;
+        hashCode = 17 * hashCode + Long.hashCode(inn);
+        return hashCode;
     }
 
     public String getName() {
@@ -78,6 +104,7 @@ public class Person {
     public void setPhoto(byte[] photo) {
         this.photo = photo;
     }
+
     public long getInn() {
         return inn;
     }

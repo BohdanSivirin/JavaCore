@@ -1,0 +1,245 @@
+Apple [add product to shop] ->  Title: Apple, Brand: laptop, Serial: 2226250622343113311
+Apple [send] product -> Apple but, shop is full
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Xiaomi [add product to shop] ->  Title: Xiaomi, Brand: phone, Serial: 6006592936151772335
+Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [add product to shop] ->  Title: Samsung, Brand: tv, Serial: 8334256838715862945
+Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Apple [add product to shop] ->  Title: Apple, Brand: phone, Serial: 9136956426284234436
+Apple [send] product -> Apple but, shop is full
+ Mark [request product] -> Apple || but, it's not available
+Mark [request] product -> Apple|| but, shop is empty
+ Xiaomi [add product to shop] ->  Title: Xiaomi, Brand: laptop, Serial: 6736025547255686819
+Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [add product to shop] ->  Title: Samsung, Brand: tv, Serial: 3488322196774522353
+Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Apple [add product to shop] ->  Title: Apple, Brand: laptop, Serial: 8131409095174913581
+Apple [send] product -> Apple but, shop is full
+ Xiaomi [add product to shop] ->  Title: Xiaomi, Brand: phone, Serial: 3579595599686702004
+Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [add product to shop] ->  Title: Samsung, Brand: laptop, Serial: 5356813826542219373
+Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Mark [request product] -> Apple || but, it's not available
+Mark [request] product -> Apple|| but, shop is empty
+ Apple [add product to shop] ->  Title: Apple, Brand: tv, Serial: 4199458794298559327
+Apple [send] product -> Apple but, shop is full
+ Xiaomi [add product to shop] ->  Title: Xiaomi, Brand: tv, Serial: 3271135821777278125
+Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [add product to shop] ->  Title: Samsung, Brand: tv, Serial: 5859696153545857048
+Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Apple [add product to shop] ->  Title: Apple, Brand: laptop, Serial: 6875766275944370116
+Apple [send] product -> Apple but, shop is full
+ Xiaomi [add product to shop] ->  Title: Xiaomi, Brand: tv, Serial: 7389435971235924776
+Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [add product to shop] ->  Title: Samsung, Brand: laptop, Serial: 2177998103633549359
+Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Apple [add product to shop] ->  Title: Apple, Brand: laptop, Serial: 6420908816219736212
+Apple [send] product -> Apple but, shop is full
+ Xiaomi [add product to shop] ->  Title: Xiaomi, Brand: phone, Serial: 6078504148762659633
+Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [add product to shop] ->  Title: Samsung, Brand: phone, Serial: 7027809703179019335
+Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [add product to shop] ->  Title: Apple, Brand: tv, Serial: 8123791932716579214
+Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Mark [request product] -> Apple || but, it's not available
+Mark [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Samsung || but, it's not available
+Ivan [request] product -> Samsung|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Xiaomi || but, it's not available
+Orest [request] product -> Xiaomi|| but, shop is empty
+ Ivan [request product] -> Samsung || but, it's not available
+Ivan [request] product -> Samsung|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Samsung || but, it's not available
+Ivan [request] product -> Samsung|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Xiaomi || but, it's not available
+Mark [request] product -> Xiaomi|| but, shop is empty
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Mark [request product] -> Apple || but, it's not available
+Mark [request] product -> Apple|| but, shop is empty
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Apple || but, it's not available
+Ivan [request] product -> Apple|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Apple || but, it's not available
+Orest [request] product -> Apple|| but, shop is empty
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Mark [request product] -> Samsung || but, it's not available
+Mark [request] product -> Samsung|| but, shop is empty
+ Ivan [request product] -> Samsung || but, it's not available
+Ivan [request] product -> Samsung|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ Orest [request product] -> Samsung || but, it's not available
+Orest [request] product -> Samsung|| but, shop is empty
+ Mark [request product] -> Apple || but, it's not available
+Mark [request] product -> Apple|| but, shop is empty
+ Ivan [request product] -> Xiaomi || but, it's not available
+Ivan [request] product -> Xiaomi|| but, shop is empty
+ Apple [send] product -> Apple but, shop is full
+ Xiaomi [send] product -> Xiaomi but, shop is full
+ Samsung [send] product -> Samsung but, shop is full
+ 

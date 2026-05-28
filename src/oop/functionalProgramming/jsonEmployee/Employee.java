@@ -21,5 +21,15 @@ public class Employee {
         return "id " + id + "\nname " + name + "\nsalary " + salary + "\nage " + age + "\nposition " + position + "\nexp " + exp;
     }
 
+    public int getId() {
+        return id;
+    }
 
+    public double getSalary() {
+        return salary;
+    }
+
+    public int getExp() {
+        return exp;
+    }
 }

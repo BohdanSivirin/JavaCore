@@ -175,6 +175,11 @@ public class Main {
 //        Controller.saveEmployeePayrollDataToTxtFile(all);
 //        Controller.getEmployeePayrollDataFromTxtFile().forEach(p-> System.out.println(p));
 //        System.out.println("Bonus: " + Controller.getMinBonusOnlyManagers(all));
-        Controller.getEmployeeWithSomeNumberOfSubordinatesAndMinMoney(all, 4).forEach(employee -> System.out.println(" who: " + employee.getClass().getSimpleName() + ", id: " + employee.getId() + ", salary: " + employee.getSalary()));
+//        Controller.getEmployeeWithSomeNumberOfSubordinatesAndMinMoney(all, 4).forEach(employee -> System.out.println(" who: " + employee.getClass().getSimpleName() + ", id: " + employee.getId() + ", salary: " + employee.getSalary()));
+//        Controller.calculateAllEmployeesByPosition(all).forEach((position, count) -> {
+//            System.out.println(" Position: " + position + ", count: " + count);
+//        });
+//        Controller.saveEmployeeDataNamePositionSalaryAndBonusToFile(all);
+        Controller.dublicate_saveEmployeeDataNamePositionSalaryAndBonusToFile(all);
     }
 }

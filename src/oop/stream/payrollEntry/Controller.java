@@ -9,14 +9,12 @@ import java.nio.file.OpenOption;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Controller {
     public static final Path path = Path.of("streamPayRollData/payData.txt");
+    public static final Path data = Path.of("EmployeeData/data.txt");
 
 
     //принимаем список сотрудников и возвращаем список пейролов, для них всех без дубликатов
@@ -99,7 +97,6 @@ public class Controller {
 //        } catch (IOException e){
 //            e.printStackTrace();
 //        }
-
     }
 
     //считать с помощью стрима пейролы с файла
@@ -183,4 +180,54 @@ public class Controller {
                 .toList();
     }
 
+    //определить количество сотрудников каждой должности
+    public static Map<String, Long> calculateAllEmployeesByPosition(List<Employee> list) {
+        return list
+                .stream()
+                .distinct()
+                .collect(Collectors.groupingBy(employee -> employee.getClass().getSimpleName(), Collectors.counting()));
+    }
+
+    //записать в текстовый файл данные (имя фамилия - должность - заработок)
+    public static void saveEmployeeDataNamePositionSalaryAndBonusToFile(List<Employee> list) {
+        OpenOption[] options = {StandardOpenOption.CREATE, StandardOpenOption.WRITE};
+        try (BufferedWriter bufferedWriter = new BufferedWriter(Files.newBufferedWriter(data, options))) {
+            getPayrollEntryForEachEmployee(list)
+                    .stream()
+                    .distinct()
+                    .forEach(payrollEntry -> {
+                        try {
+                            bufferedWriter.append(payrollEntry.getEmployee().getName())
+                                    .append(" - ")
+                                    .append(payrollEntry.getEmployee().getClass().getSimpleName())
+                                    .append(" - ")
+                                    .append(String.valueOf(payrollEntry.getSalaryPlusBonus()))
+                                    .append("\n");
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
+                    });
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void dublicate_saveEmployeeDataNamePositionSalaryAndBonusToFile(List<Employee> list) {
+        try {
+            Files.writeString(
+                    data,
+                    getPayrollEntryForEachEmployee(list)
+                            .stream()
+                            .map(payrollEntry -> payrollEntry.getEmployee().getName()
+                                                 + " - "
+                                                 + payrollEntry.getEmployee().getClass().getSimpleName()
+                                                 + " - "
+                                                 + payrollEntry.getSalaryPlusBonus()
+                                                 + "\n")
+                            .reduce((s1, s2) -> s1 + s2)
+                            .get());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

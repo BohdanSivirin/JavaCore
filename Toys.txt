@@ -1,0 +1,26 @@
+toy - Car
+price = 458.99 $
+age from 3 years
+material: steel
+features: 
+1) instruction - 1
+2) wheel - 4
+toxic - no
+barcode - 999888777
+toy - Lego
+price = 500.05 $
+age from 6 years
+material: plastic
+features: 
+1) roof - 2
+2) instruction - 1
+3) panel - 10
+toxic - no
+barcode - 1234445566
+toy - Parabellum
+price = 999.99 $
+age from 18 years
+material: wood
+features: 
+toxic - yes
+barcode - 5566

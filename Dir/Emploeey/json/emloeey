@@ -1,0 +1,26 @@
+[
+    {
+        "id":2367,
+        "name":"Vasya",
+        "salary":4500.00,
+        "age":30,
+        "position":"developer",
+        "experience":5
+    },
+    {
+        "id":3398,
+        "name":"Petr",
+        "salary":2500.50,
+        "age":33,
+        "position":"qa",
+        "experience":3
+    },
+    {
+        "id":2997,
+        "name":"Ivan",
+        "salary":6500.00,
+        "age":43,
+        "position":"customer",
+        "experience":9
+    },
+]

@@ -1,0 +1,298 @@
+Factory: Skoda send car to parking space
+Truck drive into parking: BMW_Mercedes
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 2 ] 
+Truck drive into parking: Skoda
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 25 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 18 ] 
+Parking: [Skoda] send car to Truck: [ Brand: Skoda SN: 2 ] 
+Truck drive into parking: BMW_Mercedes
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 4 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 25 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 18 ] 
+Factory: Mercedes send car to parking space
+Truck drive into parking: Skoda
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 16 ] 
+Parking: [Skoda] send car to Truck: [ Brand: Skoda SN: 4 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 24 ] 
+Truck drive into parking: BMW_Mercedes
+Factory: Skoda send car to parking space
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 16 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 24 ] 
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 25 ] 
+Truck drive into parking: Skoda
+Factory: BMW send car to parking space
+Parking: [Skoda] send car to Truck: [ Brand: Skoda SN: 25 ] 
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 29 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 19 ] 
+Truck drive into parking: BMW_Mercedes
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 0 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 29 ] 
+Truck drive into parking: Skoda
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 12 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 16 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 22 ] 
+Truck load a Car: [ Brand: Skoda SN: 2 ] 
+Truck load a Car: [ Brand: BMW SN: 25 ] 
+Truck load a Car: [ Brand: Mercedes SN: 18 ] 
+Truck load a Car: [ Brand: Skoda SN: 4 ] 
+Truck load a Car: [ Brand: Mercedes SN: 16 ] 
+Truck load a Car: [ Brand: BMW SN: 24 ] 
+Truck load a Car: [ Brand: Skoda SN: 25 ] 
+Truck load a Car: [ Brand: BMW SN: 29 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 27 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 24 ] 
+Truck is full and goes to Ship
+Truck send Car to Ship: [ Brand: Skoda SN: 2 ] 
+Ship load a car: [ Brand: Skoda SN: 2 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 11 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 25 ] 
+Ship load a car: [ Brand: BMW SN: 25 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 4 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 18 ] 
+Ship load a car: [ Brand: Mercedes SN: 18 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 29 ] 
+Truck send Car to Ship: [ Brand: Skoda SN: 4 ] 
+Ship load a car: [ Brand: Skoda SN: 4 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 27 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 22 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 16 ] 
+Ship load a car: [ Brand: Mercedes SN: 16 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 24 ] 
+Ship load a car: [ Brand: BMW SN: 24 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 9 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 21 ] 
+Truck send Car to Ship: [ Brand: Skoda SN: 25 ] 
+Truck send car to Tresher: [ Brand: Skoda SN: 25 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 1 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 29 ] 
+Ship load a car: [ Brand: BMW SN: 29 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 27 ] 
+Truck drive into parking: BMW_Mercedes
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 19 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 12 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 16 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 27 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 24 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 4 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 29 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 22 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 10 ] 
+Truck drive into parking: Skoda
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 23 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 3 ] 
+Truck load a Car: [ Brand: Mercedes SN: 19 ] 
+Truck load a Car: [ Brand: BMW SN: 12 ] 
+Truck load a Car: [ Brand: Mercedes SN: 16 ] 
+Factory: Skoda send car to parking space
+Truck load a Car: [ Brand: Mercedes SN: 27 ] 
+Truck load a Car: [ Brand: BMW SN: 24 ] 
+Truck load a Car: [ Brand: Mercedes SN: 4 ] 
+Truck load a Car: [ Brand: BMW SN: 29 ] 
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 26 ] 
+Truck load a Car: [ Brand: Mercedes SN: 22 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 13 ] 
+Truck is full and goes to Ship
+Truck send Car to Ship: [ Brand: Mercedes SN: 19 ] 
+Ship load a car: [ Brand: Mercedes SN: 19 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 12 ] 
+Ship load a car: [ Brand: BMW SN: 12 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 18 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 14 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 24 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 16 ] 
+Truck send car to Tresher: [ Brand: Mercedes SN: 16 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 27 ] 
+Ship load a car: [ Brand: Mercedes SN: 27 ] 
+Tugboat lifted Ship away
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 17 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 2 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 8 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 24 ] 
+Ship load a car: [ Brand: BMW SN: 24 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 4 ] 
+Ship load a car: [ Brand: Mercedes SN: 4 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 29 ] 
+Ship load a car: [ Brand: BMW SN: 29 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 21 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 22 ] 
+Ship load a car: [ Brand: Mercedes SN: 22 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 3 ] 
+Truck drive into parking: BMW_Mercedes
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 9 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 1 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 27 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 23 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 3 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 13 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 18 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 24 ] 
+Factory: Skoda send car to parking space
+Parking: [Skoda] park a car: [ Brand: Skoda SN: 20 ] 
+Truck drive into parking: Skoda
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 5 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 28 ] 
+Truck load a Car: [ Brand: BMW SN: 9 ] 
+Truck load a Car: [ Brand: Mercedes SN: 1 ] 
+Truck load a Car: [ Brand: BMW SN: 27 ] 
+Truck load a Car: [ Brand: Mercedes SN: 23 ] 
+Truck load a Car: [ Brand: BMW SN: 3 ] 
+Truck load a Car: [ Brand: Mercedes SN: 13 ] 
+Truck load a Car: [ Brand: BMW SN: 18 ] 
+Truck load a Car: [ Brand: Mercedes SN: 24 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 20 ] 
+Truck is full and goes to Ship
+Truck send Car to Ship: [ Brand: BMW SN: 9 ] 
+Ship load a car: [ Brand: BMW SN: 9 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 23 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 21 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 1 ] 
+Ship load a car: [ Brand: Mercedes SN: 1 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 27 ] 
+Ship load a car: [ Brand: BMW SN: 27 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 11 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 3 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 23 ] 
+Ship load a car: [ Brand: Mercedes SN: 23 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 3 ] 
+Ship load a car: [ Brand: BMW SN: 3 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 13 ] 
+Ship load a car: [ Brand: Mercedes SN: 13 ] 
+Tugboat lifted Ship away
+Truck send Car to Ship: [ Brand: BMW SN: 18 ] 
+Ship load a car: [ Brand: BMW SN: 18 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 6 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 24 ] 
+Ship load a car: [ Brand: Mercedes SN: 24 ] 
+Truck drive into parking: BMW_Mercedes
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 2 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 8 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 3 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 5 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 28 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 20 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 23 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 21 ] 
+Truck drive into parking: Skoda
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 15 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 3 ] 
+Truck load a Car: [ Brand: BMW SN: 2 ] 
+Truck load a Car: [ Brand: Mercedes SN: 8 ] 
+Truck load a Car: [ Brand: BMW SN: 3 ] 
+Truck load a Car: [ Brand: Mercedes SN: 5 ] 
+Truck load a Car: [ Brand: BMW SN: 28 ] 
+Truck load a Car: [ Brand: Mercedes SN: 20 ] 
+Truck load a Car: [ Brand: Mercedes SN: 23 ] 
+Truck load a Car: [ Brand: BMW SN: 21 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 3 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 5 ] 
+Truck is full and goes to Ship
+Truck send Car to Ship: [ Brand: BMW SN: 2 ] 
+Ship load a car: [ Brand: BMW SN: 2 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 8 ] 
+Ship load a car: [ Brand: Mercedes SN: 8 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 29 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 3 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 3 ] 
+Ship load a car: [ Brand: BMW SN: 3 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 5 ] 
+Ship load a car: [ Brand: Mercedes SN: 5 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 28 ] 
+Ship load a car: [ Brand: BMW SN: 28 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 22 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 20 ] 
+Ship load a car: [ Brand: Mercedes SN: 20 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 11 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 23 ] 
+Ship load a car: [ Brand: Mercedes SN: 23 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 21 ] 
+Ship load a car: [ Brand: BMW SN: 21 ] 
+Tugboat lifted Ship away
+Truck drive into parking: BMW_Mercedes
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 11 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 3 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 6 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 15 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 3 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: BMW SN: 3 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 5 ] 
+Parking: [BMW_Mercedes] send car to Truck: [ Brand: Mercedes SN: 29 ] 
+Truck drive into parking: Skoda
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 12 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 29 ] 
+Truck load a Car: [ Brand: Mercedes SN: 11 ] 
+Truck load a Car: [ Brand: BMW SN: 3 ] 
+Truck load a Car: [ Brand: Mercedes SN: 6 ] 
+Truck load a Car: [ Brand: BMW SN: 15 ] 
+Truck load a Car: [ Brand: Mercedes SN: 3 ] 
+Truck load a Car: [ Brand: BMW SN: 3 ] 
+Truck load a Car: [ Brand: Mercedes SN: 5 ] 
+Truck load a Car: [ Brand: Mercedes SN: 29 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 19 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 0 ] 
+Truck is full and goes to Ship
+Truck send Car to Ship: [ Brand: Mercedes SN: 11 ] 
+Ship load a car: [ Brand: Mercedes SN: 11 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 3 ] 
+Ship load a car: [ Brand: BMW SN: 3 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 6 ] 
+Ship load a car: [ Brand: Mercedes SN: 6 ] 
+Factory: BMW send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: BMW SN: 21 ] 
+Factory: Mercedes send car to parking space
+Parking: [BMW_Mercedes] park a car: [ Brand: Mercedes SN: 8 ] 
+Truck send Car to Ship: [ Brand: BMW SN: 15 ] 
+Ship load a car: [ Brand: BMW SN: 15 ] 
+Truck send Car to Ship: [ Brand: Mercedes SN: 3 ] 
+Truck send car to Tresher: [ Brand: Mercedes SN: 3 ] 

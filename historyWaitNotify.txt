@@ -1,0 +1,296 @@
+Apple [add product to shop] ->  [ Title: Apple, Brand: tv, Serial: ] 3383130999349596978
+Supplier: Apple [send product:]  [ Title: Apple, Brand: tv, Serial: ] 3383130999349596978
+Nataly [requested product] -> XiaomiLaptop || but, it's not available
+Serhei [requested product] -> ApplePhone || but, it's not available
+Bohdan [requested product] -> AppleTV || but, it's not available
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 7946379528536328587
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 7946379528536328587
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 8964717050015145576
+Client: Serhei [requested product:] null
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 8964717050015145576
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 5177901670746579424
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 5177901670746579424
+Serhei [requested product] -> SamsungLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> SamsungTV || but, it's not available
+Client: Bohdan [requested product:] null
+Nataly [requested product] -> SamsungLaptop || but, it's not available
+Client: Nataly [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 7989073392045317286
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 7989073392045317286
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 2625263108146856673
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 2625263108146856673
+Nataly [requested product] -> XiaomiLaptop || but, it's not available
+Serhei [requested product] -> SamsungTV || but, it's not available
+Client: Serhei [requested product:] null
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> AppleTV || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 6634149113623214028
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 6634149113623214028
+Apple [add product to shop] ->  [ Title: Apple, Brand: tv, Serial: ] 4244532382287657639
+Supplier: Apple [send product:]  [ Title: Apple, Brand: tv, Serial: ] 4244532382287657639
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 1673534494908050249
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 1673534494908050249
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: phone, Serial: ] 8905968432764445755
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: phone, Serial: ] 8905968432764445755
+Serhei [requested product] -> ApplePhone || but, it's not available
+Client: Serhei [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 7879050895253439061
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 7879050895253439061
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 1653785964432473112
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 1653785964432473112
+Bohdan [requested product] -> XiaomiLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Nataly [requested product] -> ApplePhone || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> XiaomiTV || but, it's not available
+Client: Serhei [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 1949578553992125873
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 1949578553992125873
+Nataly [requested product] -> XiaomiPhone || but, it's not available
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> SamsungPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 8519789328337399383
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 8519789328337399383
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 6993432641917890315
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 6993432641917890315
+Serhei [requested product] -> ApplePhone || but, it's not available
+Client: Serhei [requested product:] null
+Nataly [requested product] -> SamsungPhone || but, it's not available
+Client: Nataly [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 5827750251681715589
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 5827750251681715589
+Bohdan [requested product] -> SamsungLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 5950864187483458755
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 5950864187483458755
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 131730809878337112
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 131730809878337112
+Bohdan [requested product] -> XiaomiPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 3928180535517126357
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 3928180535517126357
+Serhei [requested product] -> XiaomiPhone || but, it's not available
+Client: Serhei [requested product:] null
+Nataly [requested product] -> ApplePhone || but, it's not available
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> AppleTV || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 6137514451643167959
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 6137514451643167959
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 8789951442934669233
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 8789951442934669233
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 7216264060660873276
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 7216264060660873276
+Nataly [requested product] -> SamsungTV || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> ApplePhone || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> AppleLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 4079308599997900482
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 4079308599997900482
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 6608908876576877226
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 6608908876576877226
+Apple [add product to shop] ->  [ Title: Apple, Brand: tv, Serial: ] 177482638259380503
+Supplier: Apple [send product:]  [ Title: Apple, Brand: tv, Serial: ] 177482638259380503
+Serhei [requested product] -> XiaomiTV || but, it's not available
+Client: Serhei [requested product:] null
+Nataly [requested product] -> SamsungPhone || but, it's not available
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> SamsungLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 5145407752999379248
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 5145407752999379248
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 575563662014074090
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 575563662014074090
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 8422437958258076262
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 8422437958258076262
+Nataly [requested product] -> ApplePhone || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> SamsungTV || but, it's not available
+Client: Serhei [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: tv, Serial: ] 804617540469319984
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: tv, Serial: ] 804617540469319984
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 8081540582675062774
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 8081540582675062774
+Bohdan [requested product] -> SamsungPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Nataly [requested product] -> AppleTV || but, it's not available
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 6832108373349195233
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 6832108373349195233
+Serhei [requested product] -> XiaomiTV || but, it's not available
+Client: Serhei [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 7891974463212545109
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 7891974463212545109
+Bohdan [requested product] -> SamsungPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 2001449615373297988
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 2001449615373297988
+Serhei [requested product] -> XiaomiLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: tv, Serial: ] 5812561492722226597
+Supplier: Apple [send product:]  [ Title: Apple, Brand: tv, Serial: ] 5812561492722226597
+Nataly [requested product] -> ApplePhone || but, it's not available
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> XiaomiLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: phone, Serial: ] 995199077355832876
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: phone, Serial: ] 995199077355832876
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: tv, Serial: ] 5448566262101534222
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: tv, Serial: ] 5448566262101534222
+Nataly [requested product] -> XiaomiTV || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> XiaomiTV || but, it's not available
+Client: Serhei [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 7922007216156588496
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 7922007216156588496
+Bohdan [requested product] -> SamsungPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 530117517663160059
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 530117517663160059
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 2269284417271815073
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 2269284417271815073
+Nataly [requested product] -> XiaomiTV || but, it's not available
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 4645546918652126355
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 4645546918652126355
+Serhei [requested product] -> SamsungLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 8079288875076092091
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 8079288875076092091
+Bohdan [requested product] -> SamsungPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: tv, Serial: ] 6636057388693595484
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: tv, Serial: ] 6636057388693595484
+Nataly [requested product] -> SamsungPhone || but, it's not available
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 8758958469250965704
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 8758958469250965704
+Serhei [requested product] -> AppleTV || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> XiaomiPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 1224642962194498656
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 1224642962194498656
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 1749630579353809237
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 1749630579353809237
+Nataly [requested product] -> XiaomiPhone || but, it's not available
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 2468449876096158634
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 2468449876096158634
+Serhei [requested product] -> AppleTV || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> SamsungPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 7403450413803712923
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 7403450413803712923
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 7908924906228207969
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 7908924906228207969
+Nataly [requested product] -> SamsungPhone || but, it's not available
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 221584795472909801
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 221584795472909801
+Serhei [requested product] -> AppleLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> SamsungLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: phone, Serial: ] 1319777685183525846
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: phone, Serial: ] 1319777685183525846
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 2960821162056572088
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 2960821162056572088
+Nataly [requested product] -> AppleTV || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> SamsungPhone || but, it's not available
+Client: Serhei [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 2673625899734347151
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 2673625899734347151
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: tv, Serial: ] 8828680609185403229
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: tv, Serial: ] 8828680609185403229
+Bohdan [requested product] -> XiaomiLaptop || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 2846300894656834316
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 2846300894656834316
+Serhei [requested product] -> SamsungPhone || but, it's not available
+Client: Serhei [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 1599439799277143893
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 1599439799277143893
+Nataly [requested product] -> XiaomiTV || but, it's not available
+Client: Nataly [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 8059424038122329599
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 8059424038122329599
+Bohdan [requested product] -> XiaomiTV || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 6522973897797416958
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 6522973897797416958
+Serhei [requested product] -> AppleTV || but, it's not available
+Client: Serhei [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: tv, Serial: ] 1216160355561978222
+Supplier: Apple [send product:]  [ Title: Apple, Brand: tv, Serial: ] 1216160355561978222
+Nataly [requested product] -> AppleLaptop || but, it's not available
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> AppleTV || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 4150499092450139030
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 4150499092450139030
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 6821810393426501291
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 6821810393426501291
+Apple [add product to shop] ->  [ Title: Apple, Brand: phone, Serial: ] 1112694933212035443
+Supplier: Apple [send product:]  [ Title: Apple, Brand: phone, Serial: ] 1112694933212035443
+Nataly [requested product] -> XiaomiLaptop || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> AppleTV || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> SamsungTV || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: phone, Serial: ] 137434322681264348
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: phone, Serial: ] 137434322681264348
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: phone, Serial: ] 5175523125465178475
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: phone, Serial: ] 5175523125465178475
+Apple [add product to shop] ->  [ Title: Apple, Brand: tv, Serial: ] 35252680122629464
+Supplier: Apple [send product:]  [ Title: Apple, Brand: tv, Serial: ] 35252680122629464
+Serhei [requested product] -> AppleTV || but, it's not available
+Client: Serhei [requested product:] null
+Nataly [requested product] -> AppleLaptop || but, it's not available
+Client: Nataly [requested product:] null
+Bohdan [requested product] -> XiaomiPhone || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: tv, Serial: ] 3716156297887427142
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: tv, Serial: ] 3716156297887427142
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: phone, Serial: ] 5928183986854842998
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: phone, Serial: ] 5928183986854842998
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 2299405670945979273
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 2299405670945979273
+Nataly [requested product] -> SamsungLaptop || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> AppleLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> ApplePhone || but, it's not available
+Client: Bohdan [requested product:] null
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: tv, Serial: ] 7270659176708996705
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: tv, Serial: ] 7270659176708996705
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 7261098921159911311
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 7261098921159911311
+Nataly [requested product] -> XiaomiLaptop || but, it's not available
+Client: Nataly [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 7061191175808568594
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 7061191175808568594
+Serhei [requested product] -> AppleLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Bohdan [requested product] -> SamsungTV || but, it's not available
+Client: Bohdan [requested product:] null
+Xiaomi [add product to shop] ->  [ Title: Xiaomi, Brand: laptop, Serial: ] 3349662963944518576
+Supplier: Xiaomi [send product:]  [ Title: Xiaomi, Brand: laptop, Serial: ] 3349662963944518576
+Samsung [add product to shop] ->  [ Title: Samsung, Brand: laptop, Serial: ] 480566824971744718
+Supplier: Samsung [send product:]  [ Title: Samsung, Brand: laptop, Serial: ] 480566824971744718
+Nataly [requested product] -> ApplePhone || but, it's not available
+Client: Nataly [requested product:] null
+Serhei [requested product] -> SamsungLaptop || but, it's not available
+Client: Serhei [requested product:] null
+Apple [add product to shop] ->  [ Title: Apple, Brand: laptop, Serial: ] 7325088364187060434
+Supplier: Apple [send product:]  [ Title: Apple, Brand: laptop, Serial: ] 7325088364187060434

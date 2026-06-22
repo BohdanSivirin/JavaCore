@@ -14,6 +14,11 @@ public class Worker extends Employee {
         this.bonus = bonus;
     }
 
+    public Worker(int id, String name) {
+        super(id, name);
+        this.employmentDate = null;
+    }
+
     public LocalDate getEmploymentDate() {
         return employmentDate;
     }

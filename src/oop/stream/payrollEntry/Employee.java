@@ -2,7 +2,6 @@ package oop.stream.payrollEntry;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.Random;
 
 public abstract class Employee extends Person {
     private final int id;
@@ -13,6 +12,13 @@ public abstract class Employee extends Person {
         super(name, date);
         this.salary = salary;
         this.manager = manager;
+        this.id = id;
+    }
+
+    public Employee(int id, String name) {
+        super(name, null);
+        this.salary = BigDecimal.ZERO;
+        this.manager = null;
         this.id = id;
     }
 

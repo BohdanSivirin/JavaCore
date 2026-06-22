@@ -1,7 +1,6 @@
 package oop.stream.payrollEntry;
 
 import java.math.BigDecimal;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 
 public class Trainee extends Employee {
@@ -12,6 +11,12 @@ public class Trainee extends Employee {
         super(id, salary, manager, name, date);
         this.startDate = startDate;
         this.practiceLength = practiceLength;
+    }
+
+    public Trainee(int id, String name) {
+        super(id, name);
+        startDate = null;
+        practiceLength = -1;
     }
 
     public LocalDate getStartDate() {

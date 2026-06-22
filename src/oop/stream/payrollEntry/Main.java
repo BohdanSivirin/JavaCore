@@ -1,5 +1,6 @@
 package oop.stream.payrollEntry;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -166,6 +167,14 @@ public class Main {
 
 //        Controller.getPayrollEntryForEachEmployee(new ArrayList<>(director.getAllSubordinates())).forEach(p -> System.out.println(p));
 //        Controller.getPayrollEntryForParticularManager(manager1).forEach(p-> System.out.println(p));
-        System.out.println(Controller.calculateTotalBonus(all));
+//        System.out.println(Controller.calculateTotalBonus(all));
+//        List<Manager> managers = Controller.getManagersWithSalaryMoreThan(all, new BigDecimal("7990.99"));
+//        managers.forEach(m-> System.out.println(" who? : " + m.getClass().getSimpleName() + ", name: " + m.getName() + ", salary+bonus: " + m.getSalary().add(m.getBonus())));
+//
+//        Controller.getEmployeeWithMinExp(all).forEach(w-> System.out.println(" who? : " + w.getClass().getSimpleName() + ", name: " + w.getName() + ", date: " + w.getEmploymentDate()));
+//        Controller.saveEmployeePayrollDataToTxtFile(all);
+//        Controller.getEmployeePayrollDataFromTxtFile().forEach(p-> System.out.println(p));
+//        System.out.println("Bonus: " + Controller.getMinBonusOnlyManagers(all));
+        Controller.getEmployeeWithSomeNumberOfSubordinatesAndMinMoney(all, 4).forEach(employee -> System.out.println(" who: " + employee.getClass().getSimpleName() + ", id: " + employee.getId() + ", salary: " + employee.getSalary()));
     }
 }

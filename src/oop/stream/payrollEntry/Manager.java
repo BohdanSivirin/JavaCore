@@ -15,6 +15,10 @@ public class Manager extends Worker {
         super(id, salary, manager, name, date, employmentDate, bonus);
     }
 
+    public Manager(int id, String name) {
+        super(id, name);
+    }
+
     public Manager clone() {
         Manager cloneManager = new Manager(getId(),
                 new BigDecimal(String.valueOf(getSalary())),

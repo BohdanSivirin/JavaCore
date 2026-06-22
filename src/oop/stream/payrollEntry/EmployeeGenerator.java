@@ -17,7 +17,7 @@ public class EmployeeGenerator {
 
     public static Manager randomManager() {
         return new Manager(randomId(),
-                randomSalary(5000, 9000),
+                randomSalary(1000, 10000),
                 null,
                 randomName(),
                 randomBirthDate(30, 55),
@@ -28,7 +28,7 @@ public class EmployeeGenerator {
 
     public static Worker randomWorker(Manager manager) {
         return new Worker(randomId(),
-                randomSalary(2000, 5000),
+                randomSalary(1000, 10000),
                 manager,
                 randomName(),
                 randomBirthDate(22, 50),
@@ -39,7 +39,7 @@ public class EmployeeGenerator {
 
     public static Trainee randomTrainee(Manager manager) {
         return new Trainee(randomId(),
-                randomSalary(800, 1800),
+                randomSalary(1000, 10000),
                 manager,
                 randomName(),
                 randomBirthDate(18, 25),

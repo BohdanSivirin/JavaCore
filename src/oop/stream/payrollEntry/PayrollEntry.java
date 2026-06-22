@@ -20,6 +20,6 @@ public class PayrollEntry {
     }
 
     public String toString() {
-        return"\nid: " + employee.getId() + "\nemployee: " + employee.getName() + ",\n(salary + bonus): " + salaryPlusBonus;
+        return "id " + employee.getId() + " position " + employee.getClass().getSimpleName() + " name " + employee.getName() + " salary+bonus " + salaryPlusBonus + " $\n";
     }
 }

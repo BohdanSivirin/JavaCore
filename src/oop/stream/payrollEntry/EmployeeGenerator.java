@@ -22,7 +22,7 @@ public class EmployeeGenerator {
                 randomName(),
                 randomBirthDate(30, 55),
                 randomWorkDate(3, 15),
-                randomSalary(300, 1500)
+                randomSalary(0, 1500)
         );
     }
 
@@ -33,7 +33,7 @@ public class EmployeeGenerator {
                 randomName(),
                 randomBirthDate(22, 50),
                 randomWorkDate(1, 10),
-                randomSalary(500, 2000)
+                randomSalary(0, 2000)
         );
     }
 
@@ -63,8 +63,11 @@ public class EmployeeGenerator {
     }
 
     private static LocalDate randomBirthDate(int minAge, int maxAge) {
-        int age = RANDOM.nextInt(maxAge - minAge + 1) + minAge;
-        return LocalDate.now().minusYears(age);
+        ThreadLocalRandom random = ThreadLocalRandom.current();
+        LocalDate from = LocalDate.now().minusYears(maxAge);
+        LocalDate to = LocalDate.now().minusYears(minAge);
+        long randomDay = random.nextLong(from.toEpochDay(), to.toEpochDay());
+        return LocalDate.ofEpochDay(randomDay);
     }
 
     private static LocalDate randomWorkDate(int minYears, int maxYears) {

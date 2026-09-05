@@ -3,9 +3,9 @@ package oop.stream.payrollEntry;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public abstract class Employee extends Person {
+public abstract class Employee extends Person{
     private final int id;
-    private final BigDecimal salary;
+    private BigDecimal salary;
     private final Manager manager;
 
     public Employee(int id, BigDecimal salary, Manager manager, String name, LocalDate date) {
@@ -24,6 +24,10 @@ public abstract class Employee extends Person {
 
     public BigDecimal getSalary() {
         return salary;
+    }
+
+    public void setSalary(BigDecimal salary){
+        this.salary=salary;
     }
 
     public Manager getManager() {

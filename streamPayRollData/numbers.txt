@@ -1,0 +1,3 @@
+id 15 position Manager name Olga salary+bonus 35.00 $
+id 20 position Manager name Andriy salary+bonus 28.00 $
+id 4 position Manager name Pavel salary+bonus 57.00 $
